@@ -1,0 +1,56 @@
+// src/styles/_theme.scss
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+// Fonts
+$primary-font: "Nunito Sans", sans-serif;
+
+$secondary-font: "Nunito Sans", sans-serif;
+$tertiary-font: "Proxima Nova", sans-serif;
+
+$default-font-size: 16px;
+
+// Font Colors
+$color-text: #4f6c8d;
+$color-text-light: #a3adb4;
+$color-text-lighter: #ccd6e1;
+
+$color-text-contrast: #ffffff;
+$color-text-contrast-light: #a7b5c6;
+$color-text-contrast-lighter: #5f5f63;
+
+$white-color: #ffffff;
+$black-color: #000000;
+
+// Background Colors
+$gray: #bec9d1;
+$input: #ffffff;
+$border-light: rgba(0, 0, 0, 0.2);
+
+// Primary Colors
+$primary-color: #f5873a;
+$secondary-color: #f18910;
+$success-color: #49b26d;
+$danger-color: rgb(255, 77, 45);
+$warning-color: rgb(151, 122, 94);
+
+// Dark Primary Colors
+$primary-color-dark: darken($primary-color, 10%);
+$secondary-color-dark: darken($secondary-color, 10%);
+$success-color-dark: darken($success-color, 10%);
+$danger-color-dark: darken($danger-color, 10%);
+$warning-color-dark: darken($warning-color, 10%);
+
+// Auxiliary Colors
+$primary-color-light: lighten($primary-color, 10%);
+$secondary-color-light: lighten($secondary-color, 10%);
+$success-color-light: lighten($success-color, 10%);
+$danger-color-light: lighten($danger-color, 10%);
+$warning-color-light: lighten($warning-color, 10%);
